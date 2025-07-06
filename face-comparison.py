@@ -1,9 +1,9 @@
 import cv2
 import face_recognition
  
-imgElon = face_recognition.load_image_file('images/Elon Musk/weffsd.jpg')
+imgElon = face_recognition.load_image_file('images/weffsd.jpg')
 imgElon = cv2.cvtColor(imgElon,cv2.COLOR_BGR2RGB)
-imgTest = face_recognition.load_image_file('images/Jeff Bezos/wefwf.jpg')
+imgTest = face_recognition.load_image_file('images/wefwf.jpg')
 imgTest = cv2.cvtColor(imgTest,cv2.COLOR_BGR2RGB)
  
  
